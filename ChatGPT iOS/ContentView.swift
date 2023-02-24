@@ -10,7 +10,6 @@ import SwiftUI
 
 final class ViewModel: ObservableObject {
     init() {}
-    
     private var client: OpenAISwift?
     
     func setup(){
